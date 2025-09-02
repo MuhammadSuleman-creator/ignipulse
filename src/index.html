@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>igniPulse Software House</title>
+  <title>igniPulse </title>
   <link rel="stylesheet" href="output.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -10,7 +10,7 @@
     tailwind.config = {
       
       theme: {
-        extend: {
+        extend: {                          
           colors: {
             primary: {
               DEFAULT: '#0A192F',
@@ -81,21 +81,21 @@
     }
   </style>
 </head>
-<body class="font-inter bg-gray-50 text-primary-DEFAULT dark:bg-red-900 dark:text-gray-100 transition-colors duration-300">
+<body class="font-inter w-screen bg-gray-50 text-primary-DEFAULT dark:bg-red-900 dark:text-gray-100 transition-colors duration-300 overflow-x-hidden">
   
   <!-- Navigation -->
   
 <nav class="fixed w-full z-50 backdrop-blur-md bg-white/5 dark:bg-gray-900/30 border-b border-white/15 shadow-[0_8px_30px_rgba(0,0,0,0.50)] transition-all duration-500">
-  <div class="container mx-auto px-6 md:px-12 py-7 sm:py-5">
+  <div class="container mx-auto px-7 sm:px-2 md:px-8 xl:px-7 py-7 sm:py-5">
     <div class="flex justify-between items-center">
 
       <!-- Logo -->
-      <div class="text-4xl sm:text-3xl font-extrabold font-poppins tracking-wide text-white transition duration-300">
+      <div class="text-4xl sm:text-4xl font-extrabold font-poppins tracking-wide text-white transition duration-300">
         <span class="gradient-text">igniPulse</span>
       </div>
 
       <!-- Desktop Menu -->
-      <div class="hidden md:flex items-center space-x-5 lg:space-x-8">
+      <div class="hidden md:flex items-center space-x-5 lg:space-x-8 ">
         <a href="#home" 
            class="text-white font-medium transition duration-300 hover:text-orange-500 hover:underline underline-offset-4">
           Home
@@ -137,23 +137,23 @@
 </nav>
 
 <!-- Hero Section -->
-<section id="home" class="min-h-screen flex items-center hero-pattern pt-6 ">
+<section id="home" class="min-h-screen w-full flex items-center hero-pattern pt-6 ">
   <div class="container mx-auto px-6">
     <div class="flex  lg:flex-row items-center flex-col-reverse sm:flex-col ">
-      <div class="lg:w-1/2 sm:w-full h-auto    mb-16 mt-20 xl:mt-0 container mx-20 lg:mx-[3%]  xl:mx-24 ">
+      <div class="lg:w-1/2 sm:w-full h-auto mb-16   sm:mb-30 -mt-20 xl:mt-0 container px-20 lg:px-[3%]  xl:px-24 ">
         <!-- <h1 class="text-4xl md:text-6xl font-poppins font-extrabold mb-6 leading-tight text-red-100">
           igniPulse <br>  
           <span class="font-semibold bg-gradient-to-r from-[rgb(255,119,0)] via-[rgb(253,88,0)] to-[rgb(253,88,0)] bg-clip-text text-transparent bg-[length:200%_auto] animate-gradient-flow">
             Games Studio
           </span>
         </h1> -->
-        <img class="flex  size-100 mt-10 sm:mt-8 mx-70 sm:mx-0" src="../images/Logo.png" alt="">
-        <p class="text-2xl sm:text-xl text-gray-300 mb-8 max-w-xl mx-64 sm:mx-0 container">
+        <img class="flex size-100 sm:size-140 md:size-140 lg:size-120 xl:size-100 mt-60 sm:mt-8 md:mt-60 lg:mt-8 xl:mt-8 mx-7 sm:mx-0" src="../images/Logo.png" alt="">
+        <p class="text-xl sm:text-2xl md:text-2xl  lg:text-xl xl:text-xl text-gray-300 mb-8 max-w-xl mx-64 sm:mx-0 container">
           igniPulse crafts thrilling Android games with immersive graphics, seamless gameplay, and captivating adventures designed to keep players hooked.
         </p>
         <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
          <a href="#portfolio" 
-   class="relative inline-block text-white font-bold px-8 py-4 rounded-lg text-2xl md:text-sm 
+   class="relative inline-block text-white font-bold px-8 py-4 rounded-lg text-2xl md:text-xl lg:text-sm xl:text-sm 
           transition duration-500 text-center overflow-hidden hover:scale-90 sm:hover:scale-110 border border-red-500">
   <span class="relative z-10">View Our Projects</span>
   <span class="absolute inset-0 bg-gradient-to-r from-[#ff512f] via-[#ff441f] to-[#ff512f] animate-gradient"></span>
@@ -173,7 +173,7 @@
 
           
           <a href="#about" 
-   class="relative inline-block text-white font-bold px-8 py-4 rounded-lg text-2xl md:text-sm 
+   class="relative inline-block text-white font-bold px-8 py-4 rounded-lg text-2xl md:text-xl lg:text-sm xl:text-sm
           transition duration-500 text-center overflow-hidden hover:scale-90 sm:hover:scale-110  border border-red-500">
   <span class="relative z-10">About Us <span class="inline-block transform translate-y-[0.5px]">↓</span></span>
   <span class="absolute inset-0 bg-[#ff441f]"></span>
@@ -199,12 +199,12 @@
           <div class="absolute -top-10 -left-10 w-32 h-32 bg-accent-DEFAULT rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
           <div class="absolute -bottom-10 -right-10 w-32 h-32 bg-secondary-DEFAULT rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
           <div class="relative">
-            <div class="w-[100%] sm:w-[125%] lg:  xl:w-[125%]">
+            <div class="w-[100%] sm:w-[125%] md:w-[145%] lg:w-[100%]  xl:w-[105%]  2xl:w-[125%]">
               <div class="relative overflow-hidden">
                 <img
                   src="../images/spring 4.png"
                   alt="Hero Illustration"
-                  class="w-175 h-50 brightness-125 scale-110 opacity-80 shadow-8xl animate-float transform transition duration-500 mt-20 lg:-mx-[1%] lg:mt-[100%] xl:mx-0 xl:mt-20 "
+                  class="w-175 h-50 brightness-125 scale-110 opacity-80 shadow-8xl animate-float transform transition duration-500 mt-20 lg:-mx-[1%] lg:mt-[60%] xl:mx-0 xl:mt-20 "
                 >
                 <div class="absolute inset-0 rounded-2xl bg-gradient-to-tr from-purple-500/30 to-indigo-500/10 blur-3xl pointer-events-none"></div>
               </div>
@@ -235,12 +235,12 @@
   
   
 <!-- About Section -->
-  <section id="about" class="py-20 bg-[#360f0ff9]">
+  <section id="about" class="py-20 w-full bg-[#360f0ff9]">
     <div class="container mx-auto px-6">
       <div class="text-center mb-16">
-        <span class="inline-block px-3 py-1 text-xl md:text-sm font-semibold bg-secondary-DEFAULT/10 text-red-200 rounded-full mb-4">WHO WE ARE?</span>
+        <span class="inline-block px-3 py-1 text-xl md:text-xl lg:text-sm xl:text-sm 2xl:text-sm font-semibold bg-secondary-DEFAULT/10 text-red-200 rounded-full mb-4">WHO WE ARE?</span>
         <h2 class="text-3xl md:text-4xl font-poppins font-bold mb-4 text-red-200">Beyond <span class="gradient-text">Code</span> & Pixels</h2>
-        <p class="max-w-2xl mx-auto text-gray-300 dark:text-gray-300 text-xl  md:text-sm">
+        <p class="max-w-2xl mx-auto text-gray-300 dark:text-gray-300 text-xl md:text-xl lg:text-sm xl:text-sm 2xl:text-sm">
           "We’re a passionate team of game developers, designers, and creators focused on building immersive and boundary-pushing gaming experiences."
         </p>
       </div>
@@ -255,7 +255,7 @@
         <div class="lg:w-1/2">
           <div class="mb-8">
             <h3 class=" font-semibold mb-3 underline text-red-200 text-4xl  md:text-2xl  ">Our Philosophy</h3>
-            <p class="text-gray-300 dark:text-gray-300 mb-6 text-xl  md:text-sm">
+            <p class="text-gray-300 dark:text-gray-300 mb-6 text-xl md:text-xl lg:text-sm xl:text-sm 2xl:text-sm">
              "At igniPulse, we believe that games should not only entertain but inspire. Our mission is to craft thrilling, story-rich, and visually stunning experiences that captivate players from the very first moment. By merging cutting-edge technology with bold creativity, we push the boundaries of interactive entertainment to deliver games that are as emotionally engaging as they are technically impressive."
             </p>
           </div>
@@ -280,7 +280,7 @@
               </h4>
 
               <!-- Description -->
-              <p class="text-gray-300 dark:text-gray-300 text-xl  md:text-sm leading-relaxed transition-opacity duration-300 group-hover:opacity-90">
+              <p class="text-gray-300 dark:text-gray-300 text-xl md:text-xl lg:text-sm xl:text-sm 2xl:text-sm leading-relaxed transition-opacity duration-300 group-hover:opacity-90">
                   To build immersive, innovative games that captivate players and push the boundaries of interactive entertainment.
               </p>
           </div>
@@ -344,7 +344,7 @@
               </h4>
 
               <!-- Description -->
-              <p class="text-gray-300 dark:text-gray-300 text-xl  md:text-sm leading-relaxed transition-opacity duration-300 group-hover:opacity-90">
+              <p class="text-gray-300 dark:text-gray-300 text-xl md:text-xl lg:text-sm xl:text-sm 2xl:text-sm leading-relaxed transition-opacity duration-300 group-hover:opacity-90">
                 To shape the future of gaming through bold ideas, immersive worlds, and player-first experiences.
               </p>
           </div>
@@ -413,9 +413,9 @@
   <section id="portfolio" class="py-20 bg-[#360f0ff9]">
     <div class="container mx-auto  justify-center items-center px-6">
       <div class="text-center mb-16">
-        <span class="inline-block px-3 py-1 text-xl  md:text-sm font-semibold bg-secondary-DEFAULT/10 text-red-200 rounded-full mb-4">OUR PROJECTS</span>
+        <span class="inline-block px-3 py-1 text-xl md:text-xl lg:text-sm xl:text-sm 2xl:text-sm font-semibold bg-secondary-DEFAULT/10 text-red-200 rounded-full mb-4">OUR PROJECTS</span>
         <h2 class="text-3xl md:text-4xl font-poppins font-bold mb-4 text-red-200">Featured <span class="gradient-text">Projects</span></h2>
-        <p class="max-w-2xl mx-auto text-gray-300 dark:text-gray-300 text-xl md:text-sm">
+        <p class="max-w-2xl mx-auto text-gray-300 dark:text-gray-300 text-xl md:text-xl lg:text-sm xl:text-sm 2xl:text-sm">
           "A showcase of our latest and most immersive games, crafted to push boundaries and captivate players across genres."
         </p>
       </div>
@@ -424,7 +424,7 @@
 
         <!-- Project 1 -->
 <div
-  class="relative w-full max-w-full sm:max-w-full  md:max-w-[full] lg:max-w-[40em] h-auto border-2 border-[rgb(98,26,26)] rounded-[1.5em] bg-gradient-to-br from-[#ff0000] via-red-900/40 to-[#b80505] text-white font-nunito p-[1.5em] flex flex-col gap-[1em] backdrop-blur-[12px] hover:shadow-2xl hover:shadow-red-500/30 transition-all duration-500 group/card hover:-translate-y-1 overflow-hidden"
+    class="relative w-full max-w-full sm:max-w-full  md:max-w-full lg:max-w-full h-auto border-2 border-[rgb(98,26,26)] rounded-[1.5em] bg-gradient-to-br from-[#ff0000] via-red-900/40 to-[#b80505] text-white font-nunito p-[1.5em] flex flex-col gap-[1em] backdrop-blur-[12px] hover:shadow-2xl hover:shadow-red-500/30 transition-all duration-500 group/card hover:-translate-y-1 overflow-hidden"
 >
   <!-- Hover Gradient Overlay -->
   <div
@@ -449,7 +449,7 @@
     <h1 class="text-[2.8em] font-bold bg-gradient-to-r from-white via-blue-100 to-red-900 bg-clip-text ">
       WingRush
     </h1>
-    <p class=" text-blue-100/90 leading-relaxed font-light text-2xl  md:text-sm">
+    <p class=" text-blue-100/90 leading-relaxed font-light text-xl md:text-xl lg:text-sm xl:text-sm 2xl:text-sm">
       Fly in WingRush, collect coins, and defeat relentless enemies in the skies. Conquer dynamic dragon missions, face fierce battles.
     </p>
   </div>
@@ -466,7 +466,7 @@
     ></div>
 
    
-          <p class="relative z-10 font-medium tracking-wide text-2xl  md:text-sm">
+          <p class="relative z-10 font-medium tracking-wide text-xl md:text-xl lg:text-sm xl:text-sm 2xl:text-sm">
       
          Explore Now</p>
     <svg
@@ -529,7 +529,7 @@
     <h1 class="text-[2.8em] font-bold bg-gradient-to-r from-white via-blue-100 to-red-900 bg-clip-text ">
       Track Master
     </h1>
-    <p class=" text-blue-100/90 leading-relaxed font-light text-2xl  md:text-sm">
+    <p class=" text-blue-100/90 leading-relaxed font-light text-xl md:text-xl lg:text-sm xl:text-sm 2xl:text-sm">
        "Experience SpeedQuest by Ignipulse – an intense Android car game. Drive, complete missions, and become the ultimate road champion."
     </p>
   </div>
@@ -545,7 +545,7 @@
       class="absolute inset-0 bg-gradient-to-r from-red-600/40 via-red-500/40 to-red-600/40 -translate-x-full group-hover/btn:translate-x-full transition-transform duration-700"
     ></div>
 
-    <p class="relative z-10 font-medium tracking-wide text-2xl  md:text-sm">
+    <p class="relative z-10 font-medium tracking-wide text-xl md:text-xl lg:text-sm xl:text-sm 2xl:text-sm">
          Explore Now</p>
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -606,7 +606,7 @@
     <h1 class="text-[2.8em] font-bold bg-gradient-to-r from-white via-blue-100 to-red-900 bg-clip-text ">
      FuryTank
     </h1>
-    <p class=" text-blue-100/90 leading-relaxed font-light text-2xl  md:text-sm">
+    <p class=" text-blue-100/90 leading-relaxed font-light text-xl md:text-xl lg:text-sm xl:text-sm 2xl:text-sm">
        Fury Tank is a 2D multiplayer game where you create servers, destroy enemy tanks, and climb the leaderboard to become the ultimate tank commander.
     </p>
   </div>
@@ -622,7 +622,7 @@
       class="absolute inset-0 bg-gradient-to-r from-red-600/40 via-red-500/40 to-red-600/40 -translate-x-full group-hover/btn:translate-x-full transition-transform duration-700"
     ></div>
 
-    <p class="relative z-10 font-medium tracking-wide text-2xl  md:text-sm">
+    <p class="relative z-10 font-medium tracking-wide text-xl md:text-xl lg:text-sm xl:text-sm 2xl:text-sm">
          Explore Now</p>
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -674,7 +674,7 @@
     <h1 class="text-[2.8em] font-bold bg-gradient-to-r from-white via-blue-100 to-red-900 bg-clip-text ">
     Anton
     </h1>
-    <p class="   text-blue-100/90 leading-relaxed font-light text-2xl  md:text-sm">
+    <p class="   text-blue-100/90 leading-relaxed font-light text-xl md:text-xl lg:text-sm xl:text-sm 2xl:text-sm">
          Complete missions fires, transport items, and battle aliens across 3 environments, overcoming challenges to protect the city.
     </p>
   </div>
@@ -687,7 +687,7 @@
       class="absolute inset-0 bg-gradient-to-r from-red-600/40 via-red-500/40 to-red-600/40 -translate-x-full group-hover/btn:translate-x-full transition-transform duration-700"
     ></div>
 
-    <p class="relative z-10 font-medium tracking-wide text-2xl  md:text-sm">Coming Soon</p>
+    <p class="relative z-10 font-medium tracking-wide text-xl md:text-xl lg:text-sm xl:text-sm 2xl:text-sm">Coming Soon</p>
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
@@ -792,8 +792,8 @@
     </div>
 
     <!-- Rights -->
-    <div class="flex justify-center md:justify-end text-center md:text-right">
-      <p class="text-2xl  md:text-sm text-gray-400 hover:text-white duration-300"><a href="https://ignipulse.com/"
+    <div class="flex justify-end md:justify-end text-center md:text-right">
+      <p class="text-2xl -mx-0 sm:-mx-36 md:-mx-36 lg:-mx-0 xl:-mx-0   md:text-sm text-gray-400 hover:text-white duration-300"><a href="https://ignipulse.com/"
         target="_blank"
          rel="noopener noreferrer">
         © 2025 igniPulse <br class="block sm:hidden" />| All rights reserved.
